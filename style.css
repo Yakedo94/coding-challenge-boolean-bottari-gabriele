@@ -4,11 +4,8 @@ body {
 }
 
 div {
-    margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-bottom: 5%;
-    border-radius: 20px;
+    margin: auto;
+    border-radius: 10px;
     background: rgba(0, 0, 0, 0.5)
   }
 
@@ -35,13 +32,70 @@ nav {
 
 section {
     margin-left: 10%;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
-h2 {
+#monopattino1 {
+    display: inline-block;
     color: white;
     font-family: sans-serif;
+    font-size: x-large;
 }
+
+#monopattino2 {
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+#monopattino3 {
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+
+label {
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
 p {
     color: white;
     font-family: sans-serif;
+    word-wrap: break-word;
+    padding-right: 70%;
+
+}
+
+#metacarica {
+    background-color:rgb(245, 180, 83);
+    height: 30px;
+    margin-right: 70%;
+    border-radius: 5px;
+    color: rgb(245, 180, 83);
+   
+
+}
+
+#pienacarica {
+    background-color:rgb(14,212,14);
+    height: 30px;
+    margin-right: 50%;
+    border-radius: 5px;
+    color:rgb(14,212,14);
+
+}
+
+#quasiscarica {
+    background-color:rgb(190,65,65);
+    height: 30px;
+    margin-right: 80%;
+    border-radius: 5px;
+    color:rgb(190,65,65);
+
 }
