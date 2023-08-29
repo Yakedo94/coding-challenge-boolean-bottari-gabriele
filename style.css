@@ -4,7 +4,11 @@ body {
 }
 
 div {
-    margin: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 20%;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5)
   }
@@ -24,10 +28,10 @@ h1 {
 
 nav {
     text-align: center;
-    width: 80%;
+    width: 78%;
     background-color: rgb(30, 195, 30);
     margin: auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 section {
@@ -68,34 +72,43 @@ p {
     color: white;
     font-family: sans-serif;
     word-wrap: break-word;
-    padding-right: 70%;
+    padding-right: 75%;
 
 }
 
 #metacarica {
     background-color:rgb(245, 180, 83);
-    height: 30px;
-    margin-right: 70%;
+    margin-left: auto;
+    margin-right: 65%;
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 5px;
     color: rgb(245, 180, 83);
+    padding: 10px;
    
 
 }
 
 #pienacarica {
     background-color:rgb(14,212,14);
-    height: 30px;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 5px;
     color:rgb(14,212,14);
+    padding: 10px;
 
 }
 
 #quasiscarica {
     background-color:rgb(190,65,65);
-    height: 30px;
-    margin-right: 80%;
+    margin-left: auto;
+    margin-right: 75%;
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 5px;
     color:rgb(190,65,65);
+    padding: 10px;
 
 }
