@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Coding Challenge Bottari Gabriele</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <html>
+        <head>
+            <title>Coding Challenge Bottari Gabriele</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
         <body>
-            <div>
-                <header>
+            <div id="layout"> 
+                <header> <!-- parte superiore  -->
             
-                    <img id="logo" src="c:\Users\Gabrottino\Desktop\Boolean\Coding-Challenge\logo.png" alt="logo">
-                    <h1>Taking Booleaners from A to B</h1>
+                    <img id="logo" src="logo.png" alt="logo"> <!-- logo -->
+                    <h1>Taking Booleaners from A to B</h1> <!-- titolo -->
             
         
-                        <nav>
+                        <nav> <!-- barra centrale  -->
                             <button>Prenota</button>
                             <button>Termina Prenotazione</button>
                             <button>Accendi Luci</button>
@@ -20,41 +20,36 @@
                      
                 </header>
 
-                <section>
-                    <h2> &blacksquare; Monopattino Gino22</h2>
+                <section> <!-- primo monopattino  -->
+                    <input type="checkbox" id="monopattino1">
+                    <label for="monopattino1"> Monopattino Gino22</label> 
                     <p>
-                    &RightTeeArrow; Via Guadalametri - a 220 mentri da
-                    <br>
+                    &RightTeeArrow; Via Guadalametri - a 220 metri da
                     Stato carica:
                     </p>
-                    <svg width="800" height="40">
-                        <rect width="300" height="30" rx="5" ry="5" style="fill:rgb(245, 180, 83);" />
-                    </svg>
+                    <div id="metacarica">metacarica</div>
                 </section>
-                
-                <section>
-                    <h2> &blacksquare; Monopattino Mike24</h2>                       
+                    
+                <section> <!-- secondo monopattino  -->
+                    <input type="checkbox" id="monopattino2">
+                    <label for="monopattino2"> Monopattino Mike24</label>                     
                     <p>
-                    &RightTeeArrow; Via Ricciardoni - a 420 mentri da
-                    <br>
+                    &RightTeeArrow; Via Ricciardoni - a 420 metri da
                     Stato carica:
                     </p>
-                    <svg width="800" height="40">
-                    <rect width="600" height="30" rx="5" ry="5" style="fill:rgb(30, 195, 30);" />
-                    </svg>
-                </section>
+                    <div id="pienacarica">pienacarica</div>
+                </section>     
 
-                <section>
-                    <h2> &blacksquare; Monopattino Fede154</h2>
+                <section> <!-- terzo monopattino  -->
+                    <input type="checkbox" id="monopattino3">
+                    <label for="monopattino3"> Monopattino Fede154</label>
                     <p>
-                    &RightTeeArrow; Via Mentarini - a 490 mentri da
-                    <br>
+                    &RightTeeArrow; Via Mentarini - a 490 metri da
                     Stato carica:
                     </p>
-                    <svg width="800" height="40">
-                    <rect width="150" height="30" rx="5" ry="5" style="fill:rgb(190, 65, 65);" />
-                    </svg>
-                </section>  
+                    <div id="quasiscarica">quasiscarica</div>
+                </section>
+                 
         </div>    
         
     </body>
